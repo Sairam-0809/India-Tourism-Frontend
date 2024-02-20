@@ -98,16 +98,18 @@ p{
   font-family: 'MontserratAlternates';
 }
 .NavtwoWrapper{
-  height:3.5rem;
+  height:3rem;
   width: 100vw;
 border: 1px solid rgb(141, 26, 26);
 background-color: brown;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 padding-left:5rem;
 padding-right: 5rem;
+gap: 5rem;
 }
+
 .NavtwoWrapper a{
 text-decoration: none;
 color: white;
@@ -129,7 +131,8 @@ text-shadow: -2px -2px black;
 }
 .Slider{
   height:30vh;
-  width: 100vw;
+  width: 92rem;
+  margin-bottom: 14rem;
 }
 .EntireTextWrapper{
   width: 100vw;
@@ -579,13 +582,23 @@ align-items: center;
 
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
+/* Add this CSS to your stylesheet or component styles */
+.Font-Small {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
 }
+
+.address span {
+  color: rgb(151, 37, 37);
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.address{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+}
+
 
 .content img {
   max-width: 100%;

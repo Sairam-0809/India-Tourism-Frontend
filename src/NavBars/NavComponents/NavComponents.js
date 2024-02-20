@@ -10,7 +10,7 @@ const NavComponents = () => {
   return (
     <>
     <div className='NavtwoWrapper'>
-        <NavLink to='/' >Home</NavLink>
+        <NavLink  to='/' >Home</NavLink>
         <NavLink to='/indiaTourism'>India Tourism</NavLink>
         <NavLink to='/TourPackages'>Tour Packages</NavLink>
         <NavLink to='/PlacesToVisit'>Places To Visit</NavLink>
