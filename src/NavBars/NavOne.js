@@ -23,9 +23,9 @@ const NavOne = () => {
         </div>
 
        <div className='emailandCont Font-Small'>
-       <p  className='Font-Small'      onClick={()=>window.location='mailto:suprajakurapati8@gmail.com'}  >Email:info@theindiatourism.com</p>
+       <p  className='Font-Small'      onClick={()=>window.location='mailto:theindiatourism@gmail.com'}  >Email:info@theindiatourism.com</p>
             <div className='ContactNav Font'>
-            <img src='https://www.theindiatourism.com/images/india.webp' alt='Contact' id='contImg' onClick={() => window.open('tel:+91 630-982-1337')}/>:   6309821337</div>
+            <img src='https://www.theindiatourism.com/images/india.webp' alt='Contact' id='contImg' onClick={() => window.open('tel:+91 9201579999')}/>:+91 91256799999</div>
 
             </div>  
             <div>

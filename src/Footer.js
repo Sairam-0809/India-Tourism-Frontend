@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='leftSide'>
         <div>
             <h2>The India Tourism</h2>
-            <p  className='Font-Small'      onClick={()=>window.location='mailto:suprajakurapati8@gmail.com'}  >Email:info@theindiatourism.com</p>
+            <p  className='Font-Small'      onClick={()=>window.location='mailto:info@theindiatourism.com'}  >Email:info@theindiatourism.com</p>
         </div>
         <div>
         <div className='FollowsImgs'>
